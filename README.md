@@ -13,7 +13,7 @@ Usage: main.coffee <code> [-i <inputs>...]
               Number of inputs must match the number of ",".
 ```
 
-Note that <code> is a *string* containing the actual code.
+Note that `<code>` is a *string* containing the actual code.
 
 ## Examples
 

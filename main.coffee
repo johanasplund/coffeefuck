@@ -82,7 +82,7 @@ while currChar < inputCode.length
   if inputCode[currChar] == ","
     inputcounter += 1
   doInstruction(inputCode[currChar], tape, pointer, inputcounter, doc["<inputs>"])
-  if inputCode[currChar]  == "]" and tape.tape[pointer.x] != 0
+  if inputCode[currChar]  == "]" and tape.tape[pointer.x] != 0  and tape.tape[pointer.x] != undefined
     currChar = findMatchingBracket(inputCode, currChar)
   else
     currChar += 1

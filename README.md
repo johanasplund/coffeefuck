@@ -1,5 +1,5 @@
 # Coffeefuck
-This is a [Brainfuck](http://esolangs.org/wiki/Brainfuck) interpreter written in Coffeescript.
+This is a [Brainfuck](http://esolangs.org/wiki/Brainfuck) interpreter written in Coffeescript. An interactive version can be found [here](http://johanasplund.github.io/brainfuck).
 
 Johan Asplund
 ## Usage
